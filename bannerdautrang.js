@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='goo.gl/8mUjZq' target='_blank'><img src='http://topella.com/media/uploads/giam-gia-khung-nhan-dip-khai-truong-topella-shop.jpg' width='500px'/><br/>Trang sức bạc cao cấp</a>. Trang sức bạc giá rẻ tại TPHCM. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://goo.gl/8mUjZq' target='_blank'><img src='http://topella.com/media/uploads/giam-gia-khung-nhan-dip-khai-truong-topella-shop.jpg' width='500px'/><br/>Trang sức bạc cao cấp</a>. Trang sức bạc giá rẻ tại TPHCM. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
